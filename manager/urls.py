@@ -8,8 +8,9 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'company', views.CompanyViewSet)
+router.register(r'employer', views.EmployerViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls))
+    path('api/', include(router.urls))
 ]
