@@ -75,6 +75,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "rest-framework-simplejwt"
+version = "0.0.2"
+description = "PoC of pipreqs dependency confusion"
+category = "main"
+optional = false
+python-versions = ">=3.0"
+
+[[package]]
 name = "sqlparse"
 version = "0.4.4"
 description = "A non-validating SQL parser."
@@ -117,7 +125,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "72c508e76b2d94e083d4eda9c455aac448645378ded0bc28e57b273422a63055"
+content-hash = "67048402ffb755b2fa589d09ee6771d7609a11da9ea2dfaa84ad6234fa6aa5e6"
 
 [metadata.files]
 asgiref = []
@@ -126,6 +134,7 @@ djangorestframework = []
 gunicorn = []
 packaging = []
 pytz = []
+rest-framework-simplejwt = []
 sqlparse = []
 typing-extensions = []
 tzdata = []
