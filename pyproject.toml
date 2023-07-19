@@ -11,6 +11,8 @@ gunicorn = "^21.0.1"
 whitenoise = "^6.5.0"
 djangorestframework = "^3.14.0"
 djangorestframework-simplejwt = "^5.2.2"
+drf-spectacular = "^0.26.3"
+django-cors-headers = "^4.2.0"
 
 [tool.poetry.scripts]
 start = "runserver:djtest"
