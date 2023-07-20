@@ -1,11 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-
-from core.models import Company, Employer
-
-class CompanySerializer(ModelSerializer):
-    class Meta:
-        model = Company
-        fields = '__all__'
+from core.models import Employer
 
 class EmployerSerializer(ModelSerializer):
     class Meta:
