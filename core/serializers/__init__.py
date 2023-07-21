@@ -1,2 +1,2 @@
 from .company import CompanySerializer
-from .employer import EmployerSerializer
+from .employer import EmployerSerializer, EmployerDetailSerializer
