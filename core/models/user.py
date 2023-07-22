@@ -4,4 +4,5 @@ from django.contrib.auth.models import AbstractUser
 
 class CustomUser(AbstractUser):
     name = models.CharField(max_length=255)
-    bio = models.CharField(max_length=255, blank=True)
+    permission = models.CharField(max_length=255, blank=True)
+    role = models.CharField(max_length=255, blank=True)
